@@ -20,9 +20,11 @@ PHDL-RTDETR extends the RT-DETR architecture with physics-guided constraints to 
 ## Performance
 PHDL-RTDETR demonstrates significant improvements over baseline detectors:
 - **Precision**: 90.1%
-- **mAP**: 88.4%
+- **Recall**: 85.2%
+- **mAP@0.5**: 88.4%
+- **Parameter**: 11.31M
+- **FLOPs**: 26.2G
 - **FPS**: 75
-- **Computational Efficiency**: 54% reduction in FLOPs compared to baseline detectors
 
 The model has been rigorously evaluated on multiple datasets:
 - Custom injection-molded parts defect dataset
@@ -49,6 +51,7 @@ PHDL-RTDETR consistently outperforms state-of-the-art frameworks such as Faster 
   - `HAGConv.py`: Hybrid attention gated convolution module
   - `DEA-CARAFE.py`: Detail enhance attention content-aware upsampling
   - `LW-Fusion.py`: Learnable weighted fusion module
+  - `PHDL-RTDETR.pt`: Pre trained model
 - `models/`: Model definitions and backbone architectures
 - `utils/`: Utility functions for data processing and evaluation
 - `engine/`: Training and inference engine
