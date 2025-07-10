@@ -51,7 +51,7 @@ The dataset includes five distinct defect types commonly found in injection mold
 |-------|-------------|-------|--------|----------|-------|---------|
 | Training | 5,622 | 2,518 | 1,210 | 534 | 546 | 814 |
 | Validation | 824 | 341 | 179 | 102 | 78 | 124 |
-| Test | 286 | 427 | 78 | 46 | 52 | 56 |
+| Test | 427 | 195 | 78 | 46 | 52 | 56 |
 | **Total** | **6,873** | **3,054** | **1,467** | **682** | **676** | **994** |
 
 ### Data Format
