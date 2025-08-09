@@ -99,3 +99,21 @@ PHDL-RTDETR consistently outperforms state-of-the-art frameworks such as Faster 
 - `data/`: Data loading and preprocessing
 - `cfg/`: Configuration files
 
+## Citation
+
+If you use this work in your research, please cite the following paper:
+
+```bibtex
+@article{Guan2026,
+  title     = {Research on injection molded defects detection algorithm based on physics-guided regularization constraints},
+  author    = {Guan, Zhiguang and Zhang, Rongnan and Lin, Mingxing},
+  journal   = {Expert Systems with Applications},
+  volume    = {296},
+  pages     = {129212},
+  year      = {2026},
+  month     = {Jan},
+  issn      = {0957-4174},
+  doi       = {10.1016/j.eswa.2025.129212},
+  url       = {https://www.sciencedirect.com/science/article/pii/S0957417425028283},
+  keywords  = {Injection molded defects, Defect detection, RT-DETR, PINNs}
+}
